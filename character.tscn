@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://mvb2msftoec5"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+
+[node name="Timer" type="Timer" parent="CharacterBody2D/Sprite2D"]
